@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/distanceSection">
+        <TextView
+            android:text="Distance (miles):"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:gravity="right"
+            android:id="@+id/distanceLabel" />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionDone"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/DistanceText" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/mileageSection">
+        <TextView
+            android:text="Mileage (mpg):"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:gravity="right"
+            android:id="@+id/mileageLabel" />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionDone"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/MileageText" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/timeSection">
+        <TextView
+            android:text="Time (min):"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:gravity="right"
+            android:id="@+id/timeLabel" />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionDone"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/TimeText" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/fuelSection">
+        <TextView
+            android:text="Fuel (gal):"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:gravity="right"
+            android:id="@+id/fuelLabel" />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionDone"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/FuelText" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/getSection">
+        <Button
+            android:text="Post to Thingspeak"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/PostButton" />
+    </LinearLayout>
+</LinearLayout>
