@@ -59,11 +59,29 @@ namespace RamMileage
 			// aapt resource value: 0x7f050008
 			public const int TimeText = 2131034120;
 			
+			// aapt resource value: 0x7f05000f
+			public const int channelLabel = 2131034127;
+			
+			// aapt resource value: 0x7f05000e
+			public const int channelSection = 2131034126;
+			
+			// aapt resource value: 0x7f050010
+			public const int channelText = 2131034128;
+			
 			// aapt resource value: 0x7f050001
 			public const int distanceLabel = 2131034113;
 			
 			// aapt resource value: 0x7f050000
 			public const int distanceSection = 2131034112;
+			
+			// aapt resource value: 0x7f050012
+			public const int entryLabel = 2131034130;
+			
+			// aapt resource value: 0x7f050011
+			public const int entrySection = 2131034129;
+			
+			// aapt resource value: 0x7f050013
+			public const int entryText = 2131034131;
 			
 			// aapt resource value: 0x7f05000a
 			public const int fuelLabel = 2131034122;
@@ -116,7 +134,7 @@ namespace RamMileage
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ramlauncher = 2130837504;
 			
 			static Mipmap()
 			{
